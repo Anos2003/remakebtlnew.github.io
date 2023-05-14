@@ -1,0 +1,152 @@
+
+#wrapper{
+    max-width:1300px;
+    margin:0 auto;
+}
+#header{
+    text-align: center;
+    background-color: rgb(234, 176, 213);
+    padding:10px;
+}
+
+#w-footer{
+    background-color: rgb(7, 222, 150);
+    padding:15px;
+}
+#w-content{
+    display:flex;
+    min-height: 1500px;
+    
+}
+#content{
+    flex-basis: 70%;
+}
+#sidebar{
+    flex-basis: 30%;
+    padding:15px;
+    background-color: rgba(227, 221, 221, 0.722);
+    border-radius: 30px;
+    font-size: 24px;
+}
+#menu {
+    width: 100%;
+    text-align: center;
+
+  }
+  
+  ul {
+    list-style: none;
+    overflow: hidden;
+    padding: 20px;
+    margin: 10px;
+    display: block;
+    background-color:#27ae60;
+    border-radius: 30px 30px 30px 30px;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 20px;
+   
+  }
+  
+  a {
+    text-decoration: none;
+    color:rgb(236, 234, 231);
+    font-weight: bold;
+    padding:10px;
+    border-radius: 20px 20px 20px 20px;
+  }
+#menu>ul>li>a:hover{
+    color:#ffb7c5;
+    background-color: rgb(162, 109, 40);
+    
+  }
+ #content{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+    margin:0 auto;
+    padding:40px;
+
+   
+}
+#header{
+    margin:10px;
+    padding:40px;
+    font-size: 20px;
+    background-image: url("./Anh/wallhaven-9mjoy1_829x240.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align:center;
+    display:block;
+    color: #ffb7c5;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 5px solid #ffb7c5;
+    border-radius: 30px 30px 30px 30px;
+   
+}
+#w-footer{
+    font-family: 'Times New Roman', Times, serif;
+    margin:10px;
+    margin-top:40px;
+    padding: 25px;
+    background-color:#27ae60;
+    color:#f6f3f3;
+    text-align: left;
+    border:5px solid rgba(227, 166, 44, 0.777);
+    border-radius: 30px 30px 30px 30px;
+  }
+  #text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width:850px;
+    text-align: center;
+    text-align:justify;
+    margin:0 auto;
+    padding:40px 30px 30px 30px;
+    line-height: 1.4;
+    max-width: 600px;
+    display: inline-block;
+    border: 5px outset;
+    border-radius: 30px 30px 30px 30px;
+  }
+  #content img {
+    border-radius: 30px 30px 30px 30px;
+  }  
+  .search-wrapper {
+    position: relative;
+    display: inline-block;
+  
+  }
+  
+  input[type="text"] {
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding: 0 10px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90px;
+    height: 40px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color:#4CAF50 ;
+  
+  }
+  
+  
